@@ -1,5 +1,5 @@
 // todo store
-import { useTodoStore } from "./store/useTodoStore";
+import { useTodoStore } from "./store/todos";
 
 function App() {
   const todos = useTodoStore((state) => state.todos);
